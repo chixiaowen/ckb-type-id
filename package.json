@@ -1,0 +1,24 @@
+{
+  "name": "ckb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "cross-env nodemon main.js --watch --mode dev"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@ckb-lumos/base": "^0.19.0",
+    "@ckb-lumos/common-scripts": "^0.18.0",
+    "@ckb-lumos/config-manager": "^0.19.0",
+    "@ckb-lumos/hd": "^0.18.0",
+    "@ckb-lumos/helpers": "^0.18.0",
+    "@ckb-lumos/lumos": "^0.18.0",
+    "@ckitjs/ckit": "^0.2.0",
+    "@nervosnetwork/ckb-sdk-core": "^0.109.0",
+    "@nervosnetwork/ckb-sdk-utils": "^0.109.0",
+    "blake2b": "^2.1.4"
+  }
+}
